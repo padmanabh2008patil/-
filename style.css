@@ -1,1 +1,208 @@
 
+/* ================================
+   RESET
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ================================
+   BODY
+================================ */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    min-height: 100vh;
+}
+
+
+/* ================================
+   HEADER
+================================ */
+
+header {
+    background: linear-gradient(135deg, #ff9800, #e65100);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* ================================
+   MAIN
+================================ */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 35px auto;
+}
+
+main h2 {
+    text-align: center;
+    color: #e65100;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+
+/* ================================
+   SEARCH BOX
+================================ */
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.search-box input {
+    width: 100%;
+    max-width: 600px;
+    padding: 16px 20px;
+    font-size: 17px;
+    border: 2px solid #ff9800;
+    border-radius: 30px;
+    outline: none;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.search-box input:focus {
+    border-color: #e65100;
+    box-shadow: 0 0 10px rgba(230, 81, 0, 0.3);
+}
+
+
+/* ================================
+   DISTRICT CONTAINER
+================================ */
+
+.district-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+/* ================================
+   DISTRICT CARD
+================================ */
+
+.district-card {
+    background: white;
+    padding: 22px 15px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+/* Hover Effect */
+
+.district-card:hover {
+    background: linear-gradient(135deg, #ff9800, #e65100);
+    color: white;
+    transform: translateY(-6px);
+    border-color: #e65100;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 900px) {
+
+    .district-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    main {
+        width: 92%;
+        margin: 25px auto;
+    }
+
+    main h2 {
+        font-size: 23px;
+    }
+
+    .district-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .district-card {
+        padding: 18px 8px;
+        font-size: 16px;
+    }
+
+    .search-box input {
+        font-size: 15px;
+        padding: 14px 18px;
+    }
+
+}
+
+
+/* ================================
+   SMALL MOBILE
+================================ */
+
+@media (max-width: 350px) {
+
+    .district-container {
+        grid-template-columns: 1fr;
+    }
+
+}
