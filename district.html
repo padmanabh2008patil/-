@@ -13,7 +13,9 @@
 
     <style>
 
-        /* District Header */
+        /* =========================
+           DISTRICT HEADER
+        ========================= */
 
         .district-header {
             background: linear-gradient(135deg, #ff9800, #e65100);
@@ -33,7 +35,20 @@
         }
 
 
-        /* Back Button */
+        /* =========================
+           MAIN
+        ========================= */
+
+        main {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+
+        /* =========================
+           BACK BUTTON
+        ========================= */
 
         .back-button {
             display: inline-block;
@@ -51,16 +66,33 @@
         }
 
 
-        /* Fort Container */
+        /* =========================
+           HEADING
+        ========================= */
+
+        .fort-heading {
+            text-align: center;
+            color: #e65100;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+
+        /* =========================
+           FORT CONTAINER
+        ========================= */
 
         .fort-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 25px;
+            padding-bottom: 40px;
         }
 
 
-        /* Fort Card */
+        /* =========================
+           FORT CARD
+        ========================= */
 
         .fort-card {
             background: white;
@@ -68,7 +100,6 @@
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0,0,0,0.15);
             transition: 0.3s;
-            cursor: pointer;
         }
 
         .fort-card:hover {
@@ -77,7 +108,9 @@
         }
 
 
-        /* Fort Image */
+        /* =========================
+           FORT IMAGE
+        ========================= */
 
         .fort-card img {
             width: 100%;
@@ -86,7 +119,24 @@
         }
 
 
-        /* Fort Information */
+        /* =========================
+           NO IMAGE
+        ========================= */
+
+        .no-image {
+            width: 100%;
+            height: 220px;
+            background: #eeeeee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+        }
+
+
+        /* =========================
+           FORT INFO
+        ========================= */
 
         .fort-info {
             padding: 20px;
@@ -95,7 +145,7 @@
 
         .fort-info h2 {
             color: #e65100;
-            font-size: 22px;
+            font-size: 21px;
             margin-bottom: 10px;
         }
 
@@ -103,10 +153,47 @@
             color: #555;
             font-size: 15px;
             line-height: 1.6;
+            margin-bottom: 15px;
         }
 
 
-        /* Mobile */
+        /* =========================
+           VIEW BUTTON
+        ========================= */
+
+        .view-button {
+            display: inline-block;
+            background: #ff9800;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 15px;
+        }
+
+        .view-button:hover {
+            background: #e65100;
+        }
+
+
+        /* =========================
+           NO FORTS MESSAGE
+        ========================= */
+
+        .no-forts {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            color: #555;
+            font-size: 18px;
+        }
+
+
+        /* =========================
+           TABLET
+        ========================= */
 
         @media (max-width: 900px) {
 
@@ -117,10 +204,18 @@
         }
 
 
+        /* =========================
+           MOBILE
+        ========================= */
+
         @media (max-width: 600px) {
 
             .district-header h1 {
                 font-size: 26px;
+            }
+
+            .district-header p {
+                font-size: 16px;
             }
 
             .fort-container {
@@ -137,12 +232,14 @@
 <body>
 
 
-    <!-- District Header -->
+    <!-- =========================
+         DISTRICT HEADER
+    ========================= -->
 
     <div class="district-header">
 
         <h1 id="districtName">
-            छत्रपती संभाजीनगर
+            जिल्हा
         </h1>
 
         <p>
@@ -152,96 +249,271 @@
     </div>
 
 
-    <!-- Main Content -->
+    <!-- =========================
+         MAIN CONTENT
+    ========================= -->
 
     <main>
 
         <!-- Back Button -->
 
         <a href="index.html" class="back-button">
-            ← जिल्ह्यांच्या यादीवर जा
+            ← 36 जिल्ह्यांकडे परत जा
         </a>
 
 
-        <!-- Fort Heading -->
+        <!-- Heading -->
 
-        <h2>
-            🏰 किल्ले
+        <h2 class="fort-heading">
+            🏰 या जिल्ह्यातील किल्ले
         </h2>
 
 
-        <!-- Fort List -->
+        <!-- Forts Will Appear Here -->
 
-        <section class="fort-container">
-
-
-            <!-- Fort 1 -->
-
-            <div class="fort-card">
-
-                <img 
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Daulatabad_Fort.jpg/640px-Daulatabad_Fort.jpg"
-                    alt="देवगिरी दौलताबाद किल्ला"
-                >
-
-                <div class="fort-info">
-
-                    <h2>
-                        देवगिरी (दौलताबाद) किल्ला
-                    </h2>
-
-                    <p>
-                        महाराष्ट्रातील एक प्रसिद्ध आणि ऐतिहासिक किल्ला.
-                        देवगिरी किल्ला आपल्या अभेद्य रचना आणि समृद्ध
-                        इतिहासासाठी प्रसिद्ध आहे.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- Future Forts -->
-
-            <div class="fort-card">
-
-                <div class="fort-info">
-
-                    <h2>
-                        🏰 लवकरच...
-                    </h2>
-
-                    <p>
-                        या जिल्ह्यातील आणखी ऐतिहासिक किल्ल्यांची
-                        माहिती लवकरच येथे जोडली जाईल.
-                    </p>
-
-                </div>
-
-            </div>
-
+        <section class="fort-container" id="fortContainer">
 
         </section>
+
 
     </main>
 
 
-    <!-- JavaScript -->
+    <!-- =========================
+         JAVASCRIPT
+    ========================= -->
 
     <script>
 
         // Home Page वरून निवडलेला जिल्हा मिळवा
 
-        const district = localStorage.getItem("selectedDistrict");
+        const selectedDistrict =
+            localStorage.getItem("selectedDistrict");
 
 
-        // जर जिल्ह्याचे नाव मिळाले तर दाखवा
+        // जिल्ह्याचे नाव दाखवा
 
-        if (district) {
+        if (selectedDistrict) {
 
-            document.getElementById("districtName").innerText = district;
+            document.getElementById("districtName").innerText =
+                selectedDistrict;
 
         }
+
+
+        // forts.json मधून किल्ल्यांची माहिती घ्या
+
+        fetch("forts.json")
+
+        .then(response => {
+
+            if (!response.ok) {
+
+                throw new Error("forts.json सापडली नाही");
+
+            }
+
+            return response.json();
+
+        })
+
+        .then(data => {
+
+            // निवडलेल्या जिल्ह्याचा डेटा शोधा
+
+            const districtData = data.find(
+
+                item =>
+                    item.district === selectedDistrict
+
+            );
+
+
+            const fortContainer =
+                document.getElementById("fortContainer");
+
+
+            // जिल्हा सापडला नाही तर
+
+            if (!districtData) {
+
+                fortContainer.innerHTML = `
+
+                    <div class="no-forts">
+
+                        🏰
+
+                        <br><br>
+
+                        या जिल्ह्याची किल्ल्यांची माहिती
+                        सध्या उपलब्ध नाही.
+
+                    </div>
+
+                `;
+
+                return;
+
+            }
+
+
+            // किल्ल्यांची यादी
+
+            const forts = districtData.forts;
+
+
+            // किल्ले उपलब्ध नसतील तर
+
+            if (!forts || forts.length === 0) {
+
+                fortContainer.innerHTML = `
+
+                    <div class="no-forts">
+
+                        या जिल्ह्यातील किल्ल्यांची माहिती
+                        लवकरच उपलब्ध होईल.
+
+                    </div>
+
+                `;
+
+                return;
+
+            }
+
+
+            // प्रत्येक किल्ल्याचे Card तयार करा
+
+            forts.forEach((fort, index) => {
+
+
+                // Image उपलब्ध आहे का ते तपासा
+
+                let imageHTML = "";
+
+
+                if (fort.image && fort.image !== "") {
+
+                    imageHTML = `
+
+                        <img
+
+                            src="${fort.image}"
+
+                            alt="${fort.name}"
+
+                        >
+
+                    `;
+
+                }
+
+                else {
+
+                    imageHTML = `
+
+                        <div class="no-image">
+
+                            🏰
+
+                        </div>
+
+                    `;
+
+                }
+
+
+                // Fort Card तयार करा
+
+                const card = document.createElement("div");
+
+                card.className = "fort-card";
+
+
+                card.innerHTML = `
+
+                    ${imageHTML}
+
+                    <div class="fort-info">
+
+                        <h2>
+                            ${fort.name}
+                        </h2>
+
+                        <p>
+                            ${fort.description}
+                        </p>
+
+                        <a
+
+                            href="fort.html"
+
+                            class="view-button"
+
+                            onclick="selectFort(${index})"
+
+                        >
+
+                            किल्ल्याची माहिती पहा
+
+                        </a>
+
+                    </div>
+
+                `;
+
+
+                fortContainer.appendChild(card);
+
+            });
+
+
+            // किल्ल्याची निवड Save करा
+
+            window.selectFort = function(index) {
+
+                localStorage.setItem(
+
+                    "selectedFort",
+
+                    JSON.stringify({
+
+                        district: selectedDistrict,
+
+                        fort: forts[index]
+
+                    })
+
+                );
+
+            };
+
+
+        })
+
+
+        // Error असल्यास
+
+        .catch(error => {
+
+            console.error(error);
+
+            document.getElementById("fortContainer").innerHTML = `
+
+                <div class="no-forts">
+
+                    ⚠️ किल्ल्यांची माहिती लोड होत नाही.
+
+                    <br><br>
+
+                    कृपया forts.json फाइल तपासा.
+
+                </div>
+
+            `;
+
+        });
+
 
     </script>
 
