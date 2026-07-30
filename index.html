@@ -1,1 +1,229 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>इतिहास मराठी किल्ल्यांचा</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🏰 इतिहास मराठी किल्ल्यांचा</h1>
+        <p>महाराष्ट्रातील किल्ल्यांचा डिजिटल वारसा</p>
+    </header>
+
+
+    <!-- Main Section -->
+    <main>
+
+        <h2>महाराष्ट्रातील जिल्हा शोधा</h2>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="महाराष्ट्रातील जिल्हा शोधा..."
+                onkeyup="searchDistrict()"
+            >
+        </div>
+
+
+        <!-- 36 Districts -->
+        <section class="district-container" id="districtList">
+
+            <div class="district-card" onclick="openDistrict('अहिल्यानगर')">
+                अहिल्यानगर
+            </div>
+
+            <div class="district-card" onclick="openDistrict('अकोला')">
+                अकोला
+            </div>
+
+            <div class="district-card" onclick="openDistrict('अमरावती')">
+                अमरावती
+            </div>
+
+            <div class="district-card" onclick="openDistrict('बीड')">
+                बीड
+            </div>
+
+            <div class="district-card" onclick="openDistrict('भंडारा')">
+                भंडारा
+            </div>
+
+            <div class="district-card" onclick="openDistrict('बुलढाणा')">
+                बुलढाणा
+            </div>
+
+            <div class="district-card" onclick="openDistrict('चंद्रपूर')">
+                चंद्रपूर
+            </div>
+
+            <div class="district-card" onclick="openDistrict('छत्रपती संभाजीनगर')">
+                छत्रपती संभाजीनगर
+            </div>
+
+            <div class="district-card" onclick="openDistrict('धाराशिव')">
+                धाराशिव
+            </div>
+
+            <div class="district-card" onclick="openDistrict('धुळे')">
+                धुळे
+            </div>
+
+            <div class="district-card" onclick="openDistrict('गडचिरोली')">
+                गडचिरोली
+            </div>
+
+            <div class="district-card" onclick="openDistrict('गोंदिया')">
+                गोंदिया
+            </div>
+
+            <div class="district-card" onclick="openDistrict('हिंगोली')">
+                हिंगोली
+            </div>
+
+            <div class="district-card" onclick="openDistrict('जळगाव')">
+                जळगाव
+            </div>
+
+            <div class="district-card" onclick="openDistrict('जालना')">
+                जालना
+            </div>
+
+            <div class="district-card" onclick="openDistrict('कोल्हापूर')">
+                कोल्हापूर
+            </div>
+
+            <div class="district-card" onclick="openDistrict('लातूर')">
+                लातूर
+            </div>
+
+            <div class="district-card" onclick="openDistrict('मुंबई शहर')">
+                मुंबई शहर
+            </div>
+
+            <div class="district-card" onclick="openDistrict('मुंबई उपनगर')">
+                मुंबई उपनगर
+            </div>
+
+            <div class="district-card" onclick="openDistrict('नागपूर')">
+                नागपूर
+            </div>
+
+            <div class="district-card" onclick="openDistrict('नांदेड')">
+                नांदेड
+            </div>
+
+            <div class="district-card" onclick="openDistrict('नंदुरबार')">
+                नंदुरबार
+            </div>
+
+            <div class="district-card" onclick="openDistrict('नाशिक')">
+                नाशिक
+            </div>
+
+            <div class="district-card" onclick="openDistrict('पालघर')">
+                पालघर
+            </div>
+
+            <div class="district-card" onclick="openDistrict('परभणी')">
+                परभणी
+            </div>
+
+            <div class="district-card" onclick="openDistrict('पुणे')">
+                पुणे
+            </div>
+
+            <div class="district-card" onclick="openDistrict('रायगड')">
+                रायगड
+            </div>
+
+            <div class="district-card" onclick="openDistrict('रत्नागिरी')">
+                रत्नागिरी
+            </div>
+
+            <div class="district-card" onclick="openDistrict('सांगली')">
+                सांगली
+            </div>
+
+            <div class="district-card" onclick="openDistrict('सातारा')">
+                सातारा
+            </div>
+
+            <div class="district-card" onclick="openDistrict('सिंधुदुर्ग')">
+                सिंधुदुर्ग
+            </div>
+
+            <div class="district-card" onclick="openDistrict('सोलापूर')">
+                सोलापूर
+            </div>
+
+            <div class="district-card" onclick="openDistrict('ठाणे')">
+                ठाणे
+            </div>
+
+            <div class="district-card" onclick="openDistrict('वर्धा')">
+                वर्धा
+            </div>
+
+            <div class="district-card" onclick="openDistrict('वाशिम')">
+                वाशिम
+            </div>
+
+            <div class="district-card" onclick="openDistrict('यवतमाळ')">
+                यवतमाळ
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        // District Search Function
+        function searchDistrict() {
+
+            let input = document.getElementById("searchInput")
+                .value
+                .toLowerCase();
+
+            let districts = document.querySelectorAll(".district-card");
+
+            districts.forEach(function(district) {
+
+                let name = district.innerText.toLowerCase();
+
+                if (name.includes(input)) {
+                    district.style.display = "block";
+                } 
+                else {
+                    district.style.display = "none";
+                }
+
+            });
+
+        }
+
+
+        // Open District Page
+        function openDistrict(districtName) {
+
+            localStorage.setItem("selectedDistrict", districtName);
+
+            window.location.href = "district.html";
+
+        }
+
+    </script>
+
+</body>
+              </html>
