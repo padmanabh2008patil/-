@@ -1,1 +1,488 @@
+<!DOCTYPE html>
+<html lang="mr">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>किल्ल्याची माहिती | इतिहास मराठी किल्ल्यांचा</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+
+        /* =========================
+           HEADER
+        ========================= */
+
+        header {
+            background: linear-gradient(135deg, #ff9800, #e65100);
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 17px;
+        }
+
+
+        /* =========================
+           MAIN
+        ========================= */
+
+        main {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+
+        /* =========================
+           BACK BUTTON
+        ========================= */
+
+        .back-button {
+            display: inline-block;
+            background: #e65100;
+            color: white;
+            text-decoration: none;
+            padding: 12px 22px;
+            border-radius: 25px;
+            margin-bottom: 25px;
+        }
+
+        .back-button:hover {
+            background: #bf360c;
+        }
+
+
+        /* =========================
+           FORT TITLE
+        ========================= */
+
+        .fort-title {
+            text-align: center;
+            color: #e65100;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+
+        /* =========================
+           OPTIONS
+        ========================= */
+
+        .options-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+
+        .option-card {
+            background: white;
+            padding: 30px 15px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+            cursor: pointer;
+            transition: 0.3s;
+            border: 2px solid transparent;
+        }
+
+
+        .option-card:hover {
+            transform: translateY(-7px);
+            border-color: #ff9800;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+
+        .option-icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+
+        .option-card h2 {
+            color: #e65100;
+            font-size: 21px;
+        }
+
+
+        /* =========================
+           CONTENT BOX
+        ========================= */
+
+        .content-box {
+            background: white;
+            margin-top: 30px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            line-height: 1.8;
+        }
+
+
+        .content-box h2 {
+            color: #e65100;
+            margin-bottom: 15px;
+        }
+
+
+        /* =========================
+           HIDDEN CONTENT
+        ========================= */
+
+        .content-section {
+            display: none;
+        }
+
+
+        .content-section.active {
+            display: block;
+        }
+
+
+        /* =========================
+           PHOTO
+        ========================= */
+
+        .fort-photo {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-top: 15px;
+        }
+
+
+        /* =========================
+           MAP
+        ========================= */
+
+        .map-container {
+            margin-top: 20px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            border-radius: 12px;
+        }
+
+
+        /* =========================
+           MOBILE
+        ========================= */
+
+        @media (max-width: 800px) {
+
+            .options-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+
+        @media (max-width: 500px) {
+
+            header h1 {
+                font-size: 25px;
+            }
+
+            .fort-title {
+                font-size: 25px;
+            }
+
+            .options-container {
+                grid-template-columns: 1fr;
+            }
+
+            .content-box {
+                padding: 20px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>
+            🏰 इतिहास मराठी किल्ल्यांचा
+        </h1>
+
+        <p>
+            महाराष्ट्रातील किल्ल्यांचा डिजिटल वारसा
+        </p>
+
+    </header>
+
+
+    <!-- MAIN -->
+
+    <main>
+
+
+        <!-- BACK BUTTON -->
+
+        <a href="district.html" class="back-button">
+            ← किल्ल्यांच्या यादीवर जा
+        </a>
+
+
+        <!-- FORT NAME -->
+
+        <h1 class="fort-title" id="fortName">
+            किल्ला
+        </h1>
+
+
+        <!-- FOUR OPTIONS -->
+
+        <div class="options-container">
+
+
+            <!-- HISTORY -->
+
+            <div class="option-card" onclick="showSection('history')">
+
+                <div class="option-icon">
+                    📜
+                </div>
+
+                <h2>
+                    इतिहास
+                </h2>
+
+            </div>
+
+
+            <!-- PHOTO -->
+
+            <div class="option-card" onclick="showSection('photo')">
+
+                <div class="option-icon">
+                    📸
+                </div>
+
+                <h2>
+                    फोटो
+                </h2>
+
+            </div>
+
+
+            <!-- OTHER INFORMATION -->
+
+            <div class="option-card" onclick="showSection('other')">
+
+                <div class="option-icon">
+                    ℹ️
+                </div>
+
+                <h2>
+                    इतर माहिती
+                </h2>
+
+            </div>
+
+
+            <!-- LOCATION -->
+
+            <div class="option-card" onclick="showSection('location')">
+
+                <div class="option-icon">
+                    📍
+                </div>
+
+                <h2>
+                    लोकेशन
+                </h2>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- =========================
+             CONTENT
+        ========================= -->
+
+        <div class="content-box">
+
+
+            <!-- HISTORY -->
+
+            <div id="history" class="content-section active">
+
+                <h2>
+                    📜 किल्ल्याचा इतिहास
+                </h2>
+
+                <p id="historyText">
+
+                    या किल्ल्याचा सविस्तर इतिहास
+                    लवकरच येथे उपलब्ध होईल.
+
+                </p>
+
+            </div>
+
+
+            <!-- PHOTO -->
+
+            <div id="photo" class="content-section">
+
+                <h2>
+                    📸 किल्ल्याचे फोटो
+                </h2>
+
+                <p>
+
+                    किल्ल्याचे फोटो आणि Photo Gallery
+                    लवकरच येथे उपलब्ध होईल.
+
+                </p>
+
+            </div>
+
+
+            <!-- OTHER INFORMATION -->
+
+            <div id="other" class="content-section">
+
+                <h2>
+                    ℹ️ इतर माहिती
+                </h2>
+
+                <p>
+
+                    किल्ल्याची उंची, बांधकाम,
+                    किल्ल्याचा प्रकार, भेट देण्याची वेळ,
+                    ट्रेकिंगची माहिती इत्यादी माहिती
+                    येथे उपलब्ध होईल.
+
+                </p>
+
+            </div>
+
+
+            <!-- LOCATION -->
+
+            <div id="location" class="content-section">
+
+                <h2>
+                    📍 किल्ल्याचे लोकेशन
+                </h2>
+
+                <p>
+
+                    किल्ल्याचे Google Maps Location
+                    लवकरच येथे उपलब्ध होईल.
+
+                </p>
+
+                <div class="map-container">
+
+                    <iframe
+                        src="https://www.google.com/maps?q=Daulatabad+Fort+Maharashtra&output=embed">
+                    </iframe>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+
+        // district.html मधून निवडलेला किल्ला मिळवा
+
+        const selectedFort =
+            JSON.parse(
+                localStorage.getItem("selectedFort")
+            );
+
+
+        // किल्ल्याचे नाव दाखवा
+
+        if (selectedFort && selectedFort.fort) {
+
+            document.getElementById("fortName").innerText =
+                selectedFort.fort.name;
+
+        }
+
+
+        // Section Show Function
+
+        function showSection(sectionName) {
+
+
+            // सर्व sections hide करा
+
+            const sections =
+                document.querySelectorAll(".content-section");
+
+
+            sections.forEach(section => {
+
+                section.classList.remove("active");
+
+            });
+
+
+            // निवडलेला section दाखवा
+
+            document
+                .getElementById(sectionName)
+                .classList.add("active");
+
+        }
+
+
+    </script>
+
+
+</body>
+
+  </html>
