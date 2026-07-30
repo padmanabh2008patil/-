@@ -1,1 +1,251 @@
+<!DOCTYPE html>
+<html lang="mr">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>जिल्ह्यातील किल्ले | इतिहास मराठी किल्ल्यांचा</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        /* District Header */
+
+        .district-header {
+            background: linear-gradient(135deg, #ff9800, #e65100);
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+            margin-bottom: 30px;
+        }
+
+        .district-header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .district-header p {
+            font-size: 18px;
+        }
+
+
+        /* Back Button */
+
+        .back-button {
+            display: inline-block;
+            background: #e65100;
+            color: white;
+            text-decoration: none;
+            padding: 12px 22px;
+            border-radius: 25px;
+            margin-bottom: 25px;
+            font-size: 16px;
+        }
+
+        .back-button:hover {
+            background: #bf360c;
+        }
+
+
+        /* Fort Container */
+
+        .fort-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+
+        /* Fort Card */
+
+        .fort-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .fort-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+        }
+
+
+        /* Fort Image */
+
+        .fort-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+
+        /* Fort Information */
+
+        .fort-info {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .fort-info h2 {
+            color: #e65100;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .fort-info p {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+
+        /* Mobile */
+
+        @media (max-width: 900px) {
+
+            .fort-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+
+        @media (max-width: 600px) {
+
+            .district-header h1 {
+                font-size: 26px;
+            }
+
+            .fort-container {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- District Header -->
+
+    <div class="district-header">
+
+        <h1 id="districtName">
+            छत्रपती संभाजीनगर
+        </h1>
+
+        <p>
+            या जिल्ह्यातील ऐतिहासिक किल्ले
+        </p>
+
+    </div>
+
+
+    <!-- Main Content -->
+
+    <main>
+
+        <!-- Back Button -->
+
+        <a href="index.html" class="back-button">
+            ← जिल्ह्यांच्या यादीवर जा
+        </a>
+
+
+        <!-- Fort Heading -->
+
+        <h2>
+            🏰 किल्ले
+        </h2>
+
+
+        <!-- Fort List -->
+
+        <section class="fort-container">
+
+
+            <!-- Fort 1 -->
+
+            <div class="fort-card">
+
+                <img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Daulatabad_Fort.jpg/640px-Daulatabad_Fort.jpg"
+                    alt="देवगिरी दौलताबाद किल्ला"
+                >
+
+                <div class="fort-info">
+
+                    <h2>
+                        देवगिरी (दौलताबाद) किल्ला
+                    </h2>
+
+                    <p>
+                        महाराष्ट्रातील एक प्रसिद्ध आणि ऐतिहासिक किल्ला.
+                        देवगिरी किल्ला आपल्या अभेद्य रचना आणि समृद्ध
+                        इतिहासासाठी प्रसिद्ध आहे.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Future Forts -->
+
+            <div class="fort-card">
+
+                <div class="fort-info">
+
+                    <h2>
+                        🏰 लवकरच...
+                    </h2>
+
+                    <p>
+                        या जिल्ह्यातील आणखी ऐतिहासिक किल्ल्यांची
+                        माहिती लवकरच येथे जोडली जाईल.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+    <!-- JavaScript -->
+
+    <script>
+
+        // Home Page वरून निवडलेला जिल्हा मिळवा
+
+        const district = localStorage.getItem("selectedDistrict");
+
+
+        // जर जिल्ह्याचे नाव मिळाले तर दाखवा
+
+        if (district) {
+
+            document.getElementById("districtName").innerText = district;
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
