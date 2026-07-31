@@ -242,26 +242,18 @@ catch(error){
 
 let fortName = "";
 
+if (selectedFort) {
 
-/*
-   तुमच्या fort.html मधून selectedFort
-   खालील प्रकारे सेव्ह होत असल्याचे गृहीत आहे:
+    if (selectedFort.fort && selectedFort.fort.name) {
 
-   {
-       fort: {
-           name: "सिंहगड किल्ला"
-       }
-   }
-*/
+        fortName = selectedFort.fort.name.trim();
 
-if(
-    selectedFort &&
-    selectedFort.fort &&
-    selectedFort.fort.name
-){
+    } 
+    else if (selectedFort.name) {
 
-    fortName =
-    selectedFort.fort.name.trim();
+        fortName = selectedFort.name.trim();
+
+    }
 
 }
 
