@@ -1026,50 +1026,7 @@ const histories = {
 };
 
 
-/* =========================================
-   HISTORY DISPLAY
-========================================= */
 
-const historyText =
-document.getElementById("historyText");
-
-
-/* =========================================
-   SHOW HISTORY
-========================================= */
-
-if(
-    fortName &&
-    histories[fortName]
-){
-
-    historyText.innerHTML =
-    histories[fortName];
-
-}
-else{
-
-    historyText.innerHTML = `
-
-        <div class="not-found">
-
-            🏰
-
-            <br><br>
-
-            <strong>
-            या किल्ल्याचा इतिहास सध्या उपलब्ध नाही.
-            </strong>
-
-            <br><br>
-
-            हा इतिहास लवकरच येथे उपलब्ध केला जाईल.
-
-        </div>
-
-    `;
-
-}
 /* =========================================
    देवगड किल्ला
 ========================================= */
@@ -1301,6 +1258,47 @@ else{
 
 `
     };
+    const histories = {
+
+    "देवगिरी (दौलताबाद) किल्ला": `...`,
+
+    "सिंहगड किल्ला": `...`,
+
+    // बाकी सर्व जुने इतिहास
+
+    "उदगीर किल्ला": `...`,
+
+    // आता देवगड
+
+    "देवगड किल्ला": `...`,
+
+    "सुधागड किल्ला": `...`,
+
+    "प्रबळगड किल्ला": `...`,
+
+    "कर्नाळा किल्ला": `...`,
+
+    "औसा किल्ला": `...`,
+
+    "परंडा किल्ला": `...`
+
+};  // सर्व इतिहास इथे बंद
+
+// यानंतर HISTORY DISPLAY CODE
+
+const historyText =
+document.getElementById("historyText");
+
+if(
+    fortName &&
+    histories[fortName]
+){
+    historyText.innerHTML =
+    histories[fortName];
+}
+else{
+    // not found code
+}
 </script>
 
 
