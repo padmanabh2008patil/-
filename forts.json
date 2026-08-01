@@ -4,7 +4,7 @@
     "forts": [
       {
         "name": "देवगिरी (दौलताबाद) किल्ला",
-        "image": "",
+        "image": "images/devgiri-daulatabad-killa.jpg",
         "description": "महाराष्ट्रातील प्रसिद्ध ऐतिहासिक आणि अभेद्य किल्ला."
       }
     ]
@@ -14,47 +14,47 @@
     "forts": [
       {
         "name": "सिंहगड किल्ला",
-        "image": "",
+        "image": "images/sinhagad-killa.jpg",
         "description": "पुणे जिल्ह्यातील प्रसिद्ध ऐतिहासिक गड."
       },
       {
         "name": "राजगड किल्ला",
-        "image": "",
+        "image": "images/rajgad-killa.jpg",
         "description": "छत्रपती शिवाजी महाराजांच्या स्वराज्याची राजधानी राहिलेला ऐतिहासिक गड."
       },
       {
         "name": "तोरणा किल्ला",
-        "image": "",
+        "image": "images/torna-killa.jpg",
         "description": "छत्रपती शिवाजी महाराजांनी जिंकलेला स्वराज्यातील पहिला किल्ला."
       },
       {
         "name": "पुरंदर किल्ला",
-        "image": "",
+        "image": "images/purandar-killa.jpg",
         "description": "पुणे जिल्ह्यातील महत्त्वाचा ऐतिहासिक किल्ला."
       },
       {
         "name": "शिवनेरी किल्ला",
-        "image": "",
+        "image": "images/shivneri-killa.jpg",
         "description": "छत्रपती शिवाजी महाराजांचे जन्मस्थान."
       },
       {
         "name": "लोहगड किल्ला",
-        "image": "",
+        "image": "images/lohagad-killa.jpg",
         "description": "लोणावळा परिसरातील प्रसिद्ध डोंगरी किल्ला."
       },
       {
         "name": "विसापूर किल्ला",
-        "image": "",
+        "image": "images/visapur-killa.jpg",
         "description": "लोहगडाजवळील ऐतिहासिक किल्ला."
       },
       {
         "name": "तिकोना किल्ला",
-        "image": "",
+        "image": "images/tikona-killa.jpg",
         "description": "मावळ भागातील प्रसिद्ध किल्ला."
       },
       {
         "name": "तुंग किल्ला",
-        "image": "",
+        "image": "images/tung-killa.jpg",
         "description": "पवना धरणाजवळील डोंगरी किल्ला."
       }
     ]
@@ -64,27 +64,27 @@
     "forts": [
       {
         "name": "रायगड किल्ला",
-        "image": "",
+        "image": "images/raigad-killa.jpg",
         "description": "छत्रपती शिवाजी महाराजांच्या स्वराज्याची राजधानी."
       },
       {
         "name": "मुरुड-जंजिरा किल्ला",
-        "image": "",
+        "image": "images/murud-janjira-killa.jpg",
         "description": "समुद्रातील प्रसिद्ध जलदुर्ग."
       },
       {
         "name": "सुधागड किल्ला",
-        "image": "",
+        "image": "images/sudhagad-killa.jpg",
         "description": "रायगड जिल्ह्यातील डोंगरी किल्ला."
       },
       {
         "name": "प्रबळगड किल्ला",
-        "image": "",
+        "image": "images/prabalgad-killa.jpg",
         "description": "माथेरान परिसरातील ऐतिहासिक किल्ला."
       },
       {
         "name": "कर्नाळा किल्ला",
-        "image": "",
+        "image": "images/karnala-killa.jpg",
         "description": "पनवेलजवळील प्रसिद्ध किल्ला."
       }
     ]
@@ -94,32 +94,32 @@
     "forts": [
       {
         "name": "प्रतापगड किल्ला",
-        "image": "",
+        "image": "images/pratapgad-killa.jpg",
         "description": "अफजलखानाच्या ऐतिहासिक भेटीसाठी प्रसिद्ध."
       },
       {
         "name": "सज्जनगड किल्ला",
-        "image": "",
+        "image": "images/sajjangad-killa.jpg",
         "description": "समर्थ रामदास स्वामींच्या वास्तव्यामुळे प्रसिद्ध."
       },
       {
         "name": "अजिंक्यतारा किल्ला",
-        "image": "",
+        "image": "images/ajinkyatara-killa.jpg",
         "description": "सातारा शहराजवळील ऐतिहासिक किल्ला."
       },
       {
         "name": "वासोटा किल्ला",
-        "image": "",
+        "image": "images/vasota-killa.jpg",
         "description": "कोयना अभयारण्यातील वनदुर्ग."
       },
       {
         "name": "कमळगड किल्ला",
-        "image": "",
+        "image": "images/kamalgad-killa.jpg",
         "description": "सातारा जिल्ह्यातील डोंगरी किल्ला."
       },
       {
         "name": "पांडवगड किल्ला",
-        "image": "",
+        "image": "images/pandavgad-killa.jpg",
         "description": "वाई परिसरातील ऐतिहासिक किल्ला."
       }
     ]
@@ -129,46 +129,47 @@
     "forts": [
       {
         "name": "सल्हेर किल्ला",
-        "image": "",
+        "image": "images/salher-killa.jpg",
         "description": "महाराष्ट्रातील सर्वात उंच किल्ल्यांपैकी एक."
       },
       {
         "name": "मुल्हेर किल्ला",
-        "image": "",
+        "image": "images/mulher-killa.jpg",
         "description": "बागलाण परिसरातील ऐतिहासिक किल्ला."
       },
       {
         "name": "रामशेज किल्ला",
-        "image": "",
+        "image": "images/ramshej-killa.jpg",
         "description": "मुघलांविरुद्धच्या दीर्घ लढ्यासाठी प्रसिद्ध."
       },
       {
         "name": "अंजनेरी किल्ला",
-        "image": "",
+        "image": "images/anjaneri-killa.jpg",
         "description": "हनुमान जन्मस्थळाशी संबंधित डोंगर."
       },
       {
         "name": "त्रिंगलवाडी किल्ला",
-        "image": "",
+        "image": "images/tringalwadi-killa.jpg",
         "description": "इगतपुरीजवळील ऐतिहासिक किल्ला."
       }
     ]
-  },  {
+  },
+  {
     "district": "कोल्हापूर",
     "forts": [
       {
         "name": "पन्हाळा किल्ला",
-        "image": "",
+        "image": "images/panhala-killa.jpg",
         "description": "मराठा इतिहासातील अत्यंत महत्त्वाचा किल्ला."
       },
       {
         "name": "विशाळगड किल्ला",
-        "image": "",
+        "image": "images/vishalgad-killa.jpg",
         "description": "छत्रपती शिवाजी महाराजांच्या इतिहासाशी संबंधित किल्ला."
       },
       {
         "name": "भुदरगड किल्ला",
-        "image": "",
+        "image": "images/bhudargad-killa.jpg",
         "description": "कोल्हापूर जिल्ह्यातील ऐतिहासिक किल्ला."
       }
     ]
@@ -178,17 +179,17 @@
     "forts": [
       {
         "name": "सिंधुदुर्ग किल्ला",
-        "image": "",
+        "image": "images/sindhudurg-killa.jpg",
         "description": "छत्रपती शिवाजी महाराजांनी बांधलेला प्रसिद्ध समुद्रदुर्ग."
       },
       {
         "name": "विजयदुर्ग किल्ला",
-        "image": "",
+        "image": "images/vijaydurg-killa.jpg",
         "description": "कोकणातील प्रसिद्ध जलदुर्ग."
       },
       {
         "name": "देवगड किल्ला",
-        "image": "",
+        "image": "images/devgad-killa.jpg",
         "description": "देवगड किनाऱ्यावरील ऐतिहासिक किल्ला."
       }
     ]
@@ -198,53 +199,53 @@
     "forts": [
       {
         "name": "रत्नदुर्ग किल्ला",
-        "image": "",
+        "image": "images/ratnadurg-killa.jpg",
         "description": "रत्नागिरी शहरालगतचा समुद्रदुर्ग."
       },
       {
         "name": "जयगड किल्ला",
-        "image": "",
+        "image": "images/jaigad-killa.jpg",
         "description": "शास्त्री नदीच्या मुखाशी वसलेला जलदुर्ग."
       },
       {
         "name": "पूर्णगड किल्ला",
-        "image": "",
+        "image": "images/purnagad-killa.jpg",
         "description": "कोकण किनाऱ्यावरील ऐतिहासिक किल्ला."
       },
       {
         "name": "गोवळकोट किल्ला",
-        "image": "",
+        "image": "images/gowalkot-killa.jpg",
         "description": "चिपळूणजवळील ऐतिहासिक किल्ला."
       }
     ]
   },
   {
-    "district": "अहमदनगर",
+    "district": "अहिल्यानगर",
     "forts": [
       {
         "name": "हरिश्चंद्रगड",
-        "image": "",
-        "description": "सह्याद्रीतील प्रसिद्ध दुर्ग."
+        "image": "images/harishchandragad.jpg",
+        "description": "सह्याद्रीतील अत्यंत प्रसिद्ध ऐतिहासिक दुर्ग."
       },
       {
         "name": "रतनगड",
-        "image": "",
+        "image": "images/ratangad.jpg",
         "description": "भंडारदरा परिसरातील ऐतिहासिक किल्ला."
       },
       {
         "name": "अलंग किल्ला",
-        "image": "",
-        "description": "अलंग-मदन-कुलंग त्रिकुटातील किल्ला."
+        "image": "images/alang-killa.jpg",
+        "description": "अलंग–मदन–कुलंग दुर्गत्रिकुटातील किल्ला."
       },
       {
         "name": "मदनगड",
-        "image": "",
-        "description": "कठीण चढाईसाठी प्रसिद्ध."
+        "image": "images/madangad.jpg",
+        "description": "कठीण चढाईसाठी प्रसिद्ध गिरिदुर्ग."
       },
       {
         "name": "कुलंगगड",
-        "image": "",
-        "description": "सह्याद्रीतील उंच किल्ला."
+        "image": "images/kulangad.jpg",
+        "description": "सह्याद्रीतील उंच आणि भव्य किल्ला."
       }
     ]
   },
@@ -253,47 +254,47 @@
     "forts": [
       {
         "name": "माहुलीगड",
-        "image": "",
+        "image": "images/mahuli-killa.jpg",
         "description": "शहापूर तालुक्यातील प्रसिद्ध गिरिदुर्ग."
       },
       {
         "name": "कोथळीगड (पेठ)",
-        "image": "",
+        "image": "images/kothaligad-peth.jpg",
         "description": "पेठ गावाजवळील ऐतिहासिक किल्ला."
       },
       {
         "name": "अशेरीगड",
-        "image": "",
+        "image": "images/asherigad.jpg",
         "description": "ठाणे विभागातील ऐतिहासिक किल्ला."
       }
     ]
   },
-    {
+  {
     "district": "पालघर",
     "forts": [
       {
         "name": "तांदुळवाडी किल्ला",
-        "image": "",
+        "image": "images/tandulwadi-killa.jpg",
         "description": "पालघर जिल्ह्यातील प्रसिद्ध किल्ला."
       },
       {
         "name": "अशेरीगड",
-        "image": "",
+        "image": "images/asherigad.jpg",
         "description": "पालघरमधील ऐतिहासिक डोंगरी किल्ला."
       },
       {
         "name": "कालदुर्ग",
-        "image": "",
+        "image": "images/kaldurg.jpg",
         "description": "पालघर जिल्ह्यातील ऐतिहासिक किल्ला."
       },
       {
         "name": "केळवे किल्ला",
-        "image": "",
+        "image": "images/kelve-killa.jpg",
         "description": "केळवे समुद्रकिनाऱ्याजवळील किल्ला."
       },
       {
         "name": "शिरगाव किल्ला",
-        "image": "",
+        "image": "images/shirgaon-killa.jpg",
         "description": "शिरगाव येथील समुद्रकिनारी किल्ला."
       }
     ]
@@ -303,12 +304,12 @@
     "forts": [
       {
         "name": "गाळणा किल्ला",
-        "image": "",
+        "image": "images/galna-killa.jpg",
         "description": "खानदेशातील ऐतिहासिक किल्ला."
       },
       {
         "name": "कन्हेरगड",
-        "image": "",
+        "image": "images/kanhergad.jpg",
         "description": "जळगाव जिल्ह्यातील ऐतिहासिक गड."
       }
     ]
@@ -318,12 +319,12 @@
     "forts": [
       {
         "name": "लळींग किल्ला",
-        "image": "",
+        "image": "images/laling-killa.jpg",
         "description": "धुळे शहराजवळील ऐतिहासिक किल्ला."
       },
       {
         "name": "सोंगीर किल्ला",
-        "image": "",
+        "image": "images/songir-killa.jpg",
         "description": "धुळे जिल्ह्यातील ऐतिहासिक किल्ला."
       }
     ]
@@ -333,25 +334,23 @@
     "forts": [
       {
         "name": "प्रकाशा किल्ला",
-        "image": "",
+        "image": "images/prakasha-killa.jpg",
         "description": "नंदुरबार जिल्ह्यातील ऐतिहासिक किल्ला."
       }
-      
-
     ]
   },
   {
     "district": "बुलढाणा",
     "forts": [
       {
-        "name": "बाळापुर किल्ला",
-        "image": "",
+        "name": "बाळापूर किल्ला",
+        "image": "images/balapur-killa.jpg",
         "description": "बुलढाणा जिल्ह्यातील महत्त्वाचा भुईकोट किल्ला."
       },
       {
         "name": "पळसगड किल्ला",
-        "image":"",
-        "description":"जळगाव जामोद परिसरातील ऐतिहासिक किल्ला."
+        "image": "images/palasgad-killa.jpg",
+        "description": "जळगाव जामोद परिसरातील ऐतिहासिक किल्ला."
       }
     ]
   },
@@ -360,8 +359,8 @@
     "forts": [
       {
         "name": "नरनाळा किल्ला (सीमाभाग)",
-        "image": "",
-        "description": "अकोला- अमरावती सीमेजवळील ऐतिहासिक किल्ला."
+        "image": "images/narnala-killa.jpg",
+        "description": "अकोला-अमरावती सीमेजवळील ऐतिहासिक किल्ला."
       }
     ]
   },
@@ -370,27 +369,27 @@
     "forts": [
       {
         "name": "गाविलगड किल्ला",
-        "image": "",
+        "image": "images/gawilgad-killa.jpg",
         "description": "मेळघाटातील प्रसिद्ध ऐतिहासिक किल्ला."
       },
       {
         "name": "नरनाळा किल्ला",
-        "image": "",
+        "image": "images/narnala-killa.jpg",
         "description": "अमरावती जिल्ह्यातील प्रसिद्ध डोंगरी किल्ला."
       }
     ]
   },
-    {
+  {
     "district": "नागपूर",
     "forts": [
       {
         "name": "सिताबर्डी किल्ला",
-        "image": "",
+        "image": "images/sitabardi-killa.jpg",
         "description": "नागपूर शहरातील ऐतिहासिक किल्ला."
       },
       {
         "name": "नागपूर भुईकोट किल्ला",
-        "image": "",
+        "image": "images/nagpur-bhuikot-killa.jpg",
         "description": "भोसले काळातील ऐतिहासिक किल्ला."
       }
     ]
@@ -400,7 +399,7 @@
     "forts": [
       {
         "name": "समशेरगड",
-        "image": "",
+        "image": "images/samshergad.jpg",
         "description": "वर्धा जिल्ह्यातील ऐतिहासिक किल्ला."
       }
     ]
@@ -410,7 +409,7 @@
     "forts": [
       {
         "name": "आंबागड किल्ला",
-        "image": "",
+        "image": "images/ambagad-killa.jpg",
         "description": "भंडारा जिल्ह्यातील प्रसिद्ध डोंगरी किल्ला."
       }
     ]
@@ -420,7 +419,7 @@
     "forts": [
       {
         "name": "प्रतापगड (गोंदिया)",
-        "image": "",
+        "image": "images/pratapgad-gondia.jpg",
         "description": "गोंदिया जिल्ह्यातील ऐतिहासिक किल्ला."
       }
     ]
@@ -430,7 +429,7 @@
     "forts": [
       {
         "name": "चांदागड",
-        "image": "",
+        "image": "images/chandagad.jpg",
         "description": "गडचिरोली जिल्ह्यातील ऐतिहासिक किल्ला."
       }
     ]
@@ -440,17 +439,17 @@
     "forts": [
       {
         "name": "चंद्रपूर किल्ला",
-        "image": "",
+        "image": "images/chandrapur-killa.jpg",
         "description": "चंद्रपूर शहरातील ऐतिहासिक किल्ला."
       },
       {
         "name": "बल्लारपूर किल्ला",
-        "image": "",
+        "image": "images/ballarpur-killa.jpg",
         "description": "बल्लारपूर येथील ऐतिहासिक किल्ला."
       },
       {
         "name": "माणिकगड",
-        "image": "",
+        "image": "images/manikgad.jpg",
         "description": "चंद्रपूर जिल्ह्यातील प्रसिद्ध किल्ला."
       }
     ]
@@ -460,7 +459,7 @@
     "forts": [
       {
         "name": "वणी किल्ला",
-        "image": "",
+        "image": "images/vani-killa.jpg",
         "description": "यवतमाळ जिल्ह्यातील ऐतिहासिक किल्ला."
       }
     ]
@@ -470,8 +469,8 @@
     "forts": [
       {
         "name": "मंगरूळपीर भुईकोट",
-        "image": "",
-        "description": "वाशिम जिल्ह्यातील ऐतिहासिक भुईकोट."
+        "image": "images/mangrulpir-bhuikot.jpg",
+        "description": "वाशिम जिल्ह्यातील ऐतिहासिक भुईकोट किल्ला."
       }
     ]
   },
@@ -479,19 +478,19 @@
     "district": "बीड",
     "forts": [
       {
-        "name": "बीड भुईकोट ",
-        "image": "",
+        "name": "बीड भुईकोट",
+        "image": "images/beed-bhuikot.jpg",
         "description": "बीड जिल्ह्यातील ऐतिहासिक भुईकोट."
       },
       {
         "name": "अंबाजोगाई किल्ला",
-        "image": "",
-        "description": " अंबाजोगाई शहरातील ऐतिहासिक तटबंदी व किल्ल्याचे अवशेष."
+        "image": "images/ambajogai-killa.jpg",
+        "description": "अंबाजोगाई शहरातील ऐतिहासिक तटबंदी व किल्ल्याचे अवशेष."
       },
       {
         "name": "धारूर किल्ला",
-        "image": "",
-        "description": "बीड जिल्ह्यातील सर्वात महत्वाचा किल्ला."
+        "image": "images/dharur-killa.jpg",
+        "description": "बीड जिल्ह्यातील महत्त्वाचा किल्ला."
       }
     ]
   },
@@ -500,22 +499,22 @@
     "forts": [
       {
         "name": "जालना भुईकोट किल्ला",
-        "image": "",
+        "image": "images/jalna-bhuikot-killa.jpg",
         "description": "जालना शहरातील ऐतिहासिक भुईकोट."
       }
     ]
   },
-    {
+  {
     "district": "धाराशिव",
     "forts": [
       {
         "name": "नळदुर्ग किल्ला",
-        "image": "",
+        "image": "images/naldurg-killa.jpg",
         "description": "धाराशिव जिल्ह्यातील प्रसिद्ध भुईकोट किल्ला."
       },
       {
         "name": "परंडा किल्ला",
-        "image": "",
+        "image": "images/paranda-killa.jpg",
         "description": "मजबूत आणि ऐतिहासिक भुईकोट किल्ला."
       }
     ]
@@ -525,12 +524,12 @@
     "forts": [
       {
         "name": "उदगीर किल्ला",
-        "image": "",
+        "image": "images/udgir-killa.jpg",
         "description": "लातूर जिल्ह्यातील प्रसिद्ध ऐतिहासिक किल्ला."
       },
       {
         "name": "औसा किल्ला",
-        "image": "",
+        "image": "images/ausa-killa.jpg",
         "description": "भुईकोट रचनेसाठी प्रसिद्ध किल्ला."
       }
     ]
@@ -540,12 +539,12 @@
     "forts": [
       {
         "name": "कंधार किल्ला",
-        "image": "",
+        "image": "images/kandhar-killa.jpg",
         "description": "राष्ट्रकूटकालीन ऐतिहासिक किल्ला."
       },
       {
         "name": "माहूरगड",
-        "image": "",
+        "image": "images/mahur-killa.jpg",
         "description": "माहूर येथील प्रसिद्ध गड."
       }
     ]
@@ -555,7 +554,7 @@
     "forts": [
       {
         "name": "जिंतूर भुईकोट",
-        "image": "",
+        "image": "images/jintur-bhuikot.jpg",
         "description": "परभणी जिल्ह्यातील ऐतिहासिक भुईकोट."
       }
     ]
@@ -565,7 +564,7 @@
     "forts": [
       {
         "name": "औंढा भुईकोट",
-        "image": "",
+        "image": "images/aundha-bhuikot.jpg",
         "description": "हिंगोली जिल्ह्यातील ऐतिहासिक भुईकोट."
       }
     ]
@@ -575,12 +574,12 @@
     "forts": [
       {
         "name": "बॉम्बे कॅसल",
-        "image": "",
+        "image": "images/bombay-castle.jpg",
         "description": "मुंबईतील ऐतिहासिक किल्ला."
       },
       {
         "name": "सेंट जॉर्ज किल्ला",
-        "image": "",
+        "image": "images/st-george-fort.jpg",
         "description": "ब्रिटिश काळातील ऐतिहासिक किल्ला."
       }
     ]
@@ -590,12 +589,12 @@
     "forts": [
       {
         "name": "बांद्रा किल्ला",
-        "image": "",
+        "image": "images/bandra-fort.jpg",
         "description": "बांद्र्यातील समुद्रकिनारी किल्ला."
       },
       {
         "name": "माध किल्ला",
-        "image": "",
+        "image": "images/madh-fort.jpg",
         "description": "मालाड परिसरातील ऐतिहासिक किल्ला."
       }
     ]
@@ -605,7 +604,7 @@
     "forts": [
       {
         "name": "सोलापूर भुईकोट",
-        "image": "",
+        "image": "images/solapur-bhuikot.jpg",
         "description": "सोलापूर शहरातील प्रसिद्ध किल्ला."
       }
     ]
@@ -615,49 +614,9 @@
     "forts": [
       {
         "name": "बहादूरवाडी भुईकोट",
-        "image": "",
-        "description": "सांगली जिल्ह्यातील ऐतिहासिक किल्ला."
+        "image": "images/bahadurwadi-bhuikot.jpg",
+        "description": "सांगली जिल्ह्यातील ऐतिहासिक भुईकोट किल्ला."
       }
     ]
-  },
-{
-  "district": "अहिल्यानगर",
-  "forts": [
-    {
-      "name": "हरिश्चंद्रगड",
-      "image": "",
-      "description": "सह्याद्रीतील अत्यंत प्रसिद्ध ऐतिहासिक दुर्ग."
-    },
-    {
-      "name": "रतनगड",
-      "image": "",
-      "description": "भंडारदरा परिसरातील ऐतिहासिक किल्ला."
-    },
-    {
-      "name": "अलंग किल्ला",
-      "image": "",
-      "description": "अलंग–मदन–कुलंग दुर्गत्रिकुटातील किल्ला."
-    },
-    {
-      "name": "मदनगड",
-      "image": "",
-      "description": "कठीण चढाईसाठी प्रसिद्ध गिरिदुर्ग."
-    },
-    {
-      "name": "कुलंगगड",
-      "image": "",
-      "description": "सह्याद्रीतील उंच आणि भव्य किल्ला."
-    }
-  ]
-},
-{
-  "district": "वाशिम",
-  "forts": [
-    {
-      "name": "मंगरूळपीर भुईकोट",
-      "image": "",
-      "description": "वाशिम जिल्ह्यातील ऐतिहासिक भुईकोट किल्ला."
-    }
-  ]
-}
-]
+  }
+    ]
